@@ -22,16 +22,12 @@ jobs:
           shell('echo Hello World!')
         }
       }
-      job("helloworld123") {
-        description("hello world")
+      job('helloworld123') {
+        description('hello world')
         keepDependencies(false)
         disabled(false)
         concurrentBuild(false)
         steps {
-          shell("""echo hello world !!!
-          uname -a
-          systemctl status jenkins
-          whoami
-          ls -ll """)
+          shell('systemctl status jenkins')
         }
       }

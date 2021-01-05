@@ -4,14 +4,14 @@ jenkins:
     local:
       allowsSignup: false
       enableCaptcha: false
-    users:
-    - id: "diane"
-      name: "diane"
-      properties:
-      - "apiToken"
-      - "myView"
-      - preferredProvider:
+      users:
+      - id: "diane"
+        name: "diane"
+        properties:
+        - "apiToken"
+        - "myView"
+        - preferredProvider:
           providerId: "default"
-      - "timezone"
-      - mailer:
-          emailAddress: "diane@gmail.com"
+        - "timezone"
+        - mailer:
+            emailAddress: "diane@gmail.com"

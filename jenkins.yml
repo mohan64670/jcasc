@@ -22,7 +22,7 @@ jobs:
           shell('echo Hello World!')
         }
       }
-      job('helloworld123') {
+      job('hello') {
         description('hello world')
         keepDependencies(false)
         disabled(false)

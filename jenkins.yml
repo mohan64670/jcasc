@@ -1,2 +1,5 @@
 jenkins:
   systemMessage: "Loaded from configuration as a code"
+unclassified:
+  resourceRoot:
+    url: "http://18.224.110.229:8080/"

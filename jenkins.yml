@@ -1,0 +1,14 @@
+jenkins:
+  systemMessage: "Loaded from configuration as a code"
+  securityRealm:
+    users:
+    - id: "diane"
+      name: "diane"
+      properties:
+      - "apiToken"
+      - "myView"
+      - preferredProvider:
+          providerId: "default"
+      - "timezone"
+      - mailer:
+          emailAddress: "diane@gmail.com"

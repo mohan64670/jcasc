@@ -1,16 +1,2 @@
 jenkins:
   systemMessage: "Loaded from configuration as a code"
-  securityRealm:
-    local:
-      allowsSignup: false
-      enableCaptcha: false
-      users:
-      - id: "diane"
-        name: "diane"
-        properties:
-        - "apiToken"
-        - preferredProvider:
-          providerId: "default"
-        - "timezone"
-        - mailer:
-            emailAddress: "diane@gmail.com"

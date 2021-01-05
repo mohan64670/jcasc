@@ -10,7 +10,6 @@ jenkins:
         properties:
         - preferredProvider:
             providerId: "default"
-        - "timezone"
         - mailer:
             emailAddress: "danny@gmail.com"
 unclassified:

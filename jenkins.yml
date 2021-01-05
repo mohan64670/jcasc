@@ -1,5 +1,20 @@
 jenkins:
   systemMessage: "Loaded from configuration as a code"
+  securityRealm:
+    local:
+      allowsSignup: false
+      enableCaptcha: false
+      users:
+      - id: "danny"
+        name: "danny"
+        properties:
+        - "apiToken"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - mailer:
+            emailAddress: "danny@gmail.com"
 unclassified:
   resourceRoot:
     url: "http://18.224.110.229:8080/"

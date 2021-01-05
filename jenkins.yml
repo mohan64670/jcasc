@@ -23,7 +23,7 @@ jobs:
         }
       }
 
-      
+
       job('hello') {
         description('hello world')
         keepDependencies(false)
@@ -31,5 +31,6 @@ jobs:
         concurrentBuild(false)
         steps {
           shell('systemctl status jenkins')
+          shell('echo $CASC_JENKINS_CONFIG ')
         }
       }

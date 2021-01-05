@@ -8,8 +8,6 @@ jenkins:
       - id: "danny"
         name: "danny"
         properties:
-        - "apiToken"
-        - "myView"
         - preferredProvider:
             providerId: "default"
         - "timezone"
